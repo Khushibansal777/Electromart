@@ -13,7 +13,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://electromart-server-eh9w.onrender.com",
+  baseURL: "https://electromart-server-eh9w.onrender.com/api",
   headers: {
     "Content-Type": "application/json",
   },
