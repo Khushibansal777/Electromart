@@ -1,6 +1,6 @@
 ﻿# ⚡️ ElectroMart – Electronics E-Commerce Platform
 
-![ElectroMart Preview](./assets/preview.png)
+![ElectroMart Preview](client/src/assets/preview.png)
 
 **ElectroMart** is a modern full-stack e-commerce platform built for electronics retail and B2B bulk purchases. Built using **React, Node.js, Express, and MongoDB**, it provides a seamless experience for both customers and administrators, including cart management, secure checkout, email order confirmations, invoice sending, and bulk enquiry handling with email communication.
 
