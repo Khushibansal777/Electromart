@@ -1,0 +1,58 @@
+@import "tailwindcss";
+/* client/src/App.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Layout container */
+.container {
+@apply max-w-4xl mx-auto px-4;
+}
+
+/* Global body styles */
+body {
+  @apply bg-gray-100 font-sans leading-relaxed;
+  margin: 0;
+  padding: 0;
+  height: 100%
+}
+
+/* Card component */
+.card {
+  @apply bg-white shadow-md rounded-2xl p-4;
+}
+
+/* Button common base */
+.btn {
+  @apply px-4 py-2 rounded-2xl font-medium transition;
+}
+
+/* Primary action button */
+.btn-primary {
+  @apply bg-blue-600 text-white hover:bg-blue-700;
+}
+
+/* Secondary action button */
+.btn-secondary {
+  @apply bg-gray-600 text-white hover:bg-gray-700;
+}
+
+/* Form inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  @apply border border-gray-300 rounded p-2 w-full;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply text-gray-800 font-semibold;
+}
+
+/* Utility margin helpers (if you need more granularity) */
+.mt-2 { @apply mt-2; }
+.mt-4 { @apply mt-4; }
+.mb-4 { @apply mb-4; }
+.p-4  { @apply p-4; }
+/* App.css or index.css */
+

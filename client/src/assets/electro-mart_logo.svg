@@ -1,0 +1,31 @@
+<svg
+  width="60"
+  height="60"
+  viewBox="0 0 100 100"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Outer Circle -->
+  <circle cx="50" cy="50" r="48" stroke="#0ea5e9" strokeWidth="4" fill="#ffffff" />
+
+  <!-- Bolt Icon -->
+  <path
+    d="M54 15 L40 55 H50 L46 85 L60 45 H50 Z"
+    fill="#0ea5e9"
+    stroke="#0ea5e9"
+    strokeWidth="2"
+  />
+
+  <!-- Letter E -->
+  <text
+    x="50%"
+    y="92%"
+    textAnchor="middle"
+    fontSize="10"
+    fontWeight="bold"
+    fill="#0f172a"
+    fontFamily="Arial, sans-serif"
+  >
+    ELECTROMART
+  </text>
+</svg>
